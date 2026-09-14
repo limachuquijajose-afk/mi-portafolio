@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HIERRO — Entrenamiento de fuerza</title>
+    <meta
+      name="description"
+      content="Programas de fuerza progresiva. Sin atajos, sin humo. Solo hierro, series y disciplina."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a href="#top" class="logo">HIERRO<span class="logo-dot">.</span></a>
+        <nav class="nav">
+          <a href="#filosofia">Filosofía</a>
+          <a href="#programas">Programas</a>
+          <a href="#alimentacion">Alimentación</a>
+          <a href="#calculadora">Discos</a>
+          <a href="#contacto" class="nav-cta">Empezar</a>
+        </nav>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="wrap hero-inner">
+          <p class="eyebrow">Programa de fuerza · 12 semanas</p>
+          <h1 class="hero-title">
+            El peso<br />
+            no <span class="ink-rust">negocia.</span><br />
+            vos tampoco.
+          </h1>
+          <p class="hero-sub">
+            Un método de carga progresiva para levantar más de lo que levantabas
+            el mes pasado. Sentadilla, press, peso muerto, tracción. Cuatro
+            movimientos, resultados que se pesan en el disco, no en la promesa.
+          </p>
+          <div class="hero-actions">
+            <a href="#programas" class="btn btn-primary">Ver programas</a>
+            <a href="#calculadora" class="btn btn-ghost">Calcular discos →</a>
+          </div>
+        </div>
+
+        <div class="barbell-rig" aria-hidden="true">
+          <div class="bar"></div>
+          <div class="sleeve sleeve-left">
+            <div class="plate plate-45" style="--d: 1"></div>
+            <div class="plate plate-25" style="--d: 2"></div>
+            <div class="plate plate-10" style="--d: 3"></div>
+            <div class="collar"></div>
+          </div>
+          <div class="sleeve sleeve-right">
+            <div class="collar"></div>
+            <div class="plate plate-10" style="--d: 3"></div>
+            <div class="plate plate-25" style="--d: 2"></div>
+            <div class="plate plate-45" style="--d: 1"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FILOSOFIA -->
+      <section class="filosofia" id="filosofia">
+        <div class="wrap">
+          <p class="eyebrow">La bitácora</p>
+          <h2 class="section-title">Tres reglas, cero relleno.</h2>
+
+          <div class="log">
+            <article class="log-entry">
+              <span class="log-mark">SET 01</span>
+              <h3>Sobrecarga o no cuenta.</h3>
+              <p>
+                Si esta semana levantás lo mismo que la anterior, no entrenaste:
+                mantuviste. El programa sube el peso, las repeticiones o las
+                series cada microciclo, aunque sea un disco de 1.25&nbsp;kg por
+                lado.
+              </p>
+            </article>
+            <article class="log-entry">
+              <span class="log-mark">SET 02</span>
+              <h3>Técnica antes que ego.</h3>
+              <p>
+                Rango completo, tempo controlado, cero rebote. Un press a media
+                altura no es un press más pesado, es una lesión pendiente.
+                Filmamos, corregimos, recién ahí cargamos.
+              </p>
+            </article>
+            <article class="log-entry">
+              <span class="log-mark">SET 03</span>
+              <h3>El descanso también entrena.</h3>
+              <p>
+                El músculo no crece bajo la barra, crece durmiendo. Cada bloque
+                incluye una semana de descarga programada. No es opcional, es
+                parte del levantamiento.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROGRAMAS -->
+      <section class="programas" id="programas">
+        <div class="wrap">
+          <p class="eyebrow">Elegí tu carga</p>
+          <h2 class="section-title">Programas de fuerza</h2>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card-top">
+                <span class="card-tag">Principiante</span>
+                <span class="card-weeks">8 semanas</span>
+              </div>
+              <h3>Base</h3>
+              <p>
+                Los cuatro básicos con progresión lineal. Ideal si nunca
+                corriste un programa estructurado o volvés después de una pausa
+                larga.
+              </p>
+              <ul class="card-list">
+                <li>3 sesiones por semana</li>
+                <li>Sentadilla · Press banca · Peso muerto</li>
+                <li>Progresión lineal semanal</li>
+              </ul>
+              <a href="#contacto" class="card-link">Empezar Base →</a>
+            </article>
+
+            <article class="card card-featured">
+              <div class="card-top">
+                <span class="card-tag card-tag-rust">Intermedio</span>
+                <span class="card-weeks">12 semanas</span>
+              </div>
+              <h3>Bloque de Fuerza</h3>
+              <p>
+                Periodización por bloques con semanas de acumulación,
+                intensificación y descarga. Para quien ya estancó la progresión
+                lineal.
+              </p>
+              <ul class="card-list">
+                <li>4 sesiones por semana</li>
+                <li>Los 4 básicos + accesorios</li>
+                <li>Descarga programada cada 4 semanas</li>
+              </ul>
+              <a href="#contacto" class="card-link card-link-rust"
+                >Empezar Bloque →</a
+              >
+            </article>
+
+            <article class="card">
+              <div class="card-top">
+                <span class="card-tag">Avanzado</span>
+                <span class="card-weeks">16 semanas</span>
+              </div>
+              <h3>Powerlifting</h3>
+              <p>
+                Preparación específica para competencia. Aperturas, intentos y
+                picos calculados para llegar afilado el día de la plataforma.
+              </p>
+              <ul class="card-list">
+                <li>5 sesiones por semana</li>
+                <li>Trabajo de picos y aperturas</li>
+                <li>Simulacro de competencia</li>
+              </ul>
+              <a href="#contacto" class="card-link">Empezar Powerlifting →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ALIMENTACIÓN -->
+      <section class="alimentacion" id="alimentacion">
+        <div class="wrap">
+          <p class="eyebrow">Fuera de la barra</p>
+          <h2 class="section-title">Alimentación</h2>
+          <p class="alim-sub">
+            No hay progresión que aguante un déficit mal manejado ni una dieta
+            sin proteína. Elegí el momento del día y mirá qué priorizar en el
+            plato.
+          </p>
+
+          <div
+            class="nutri-tabs"
+            role="tablist"
+            aria-label="Momentos de alimentación"
+          >
+            <button
+              class="nutri-tab active"
+              role="tab"
+              aria-selected="true"
+              aria-controls="panel-pre"
+              id="tab-pre"
+              data-target="panel-pre"
+            >
+              Pre-entreno
+            </button>
+            <button
+              class="nutri-tab"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-post"
+              id="tab-post"
+              data-target="panel-post"
+            >
+              Post-entreno
+            </button>
+            <button
+              class="nutri-tab"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-descanso"
+              id="tab-descanso"
+              data-target="panel-descanso"
+            >
+              Días de descanso
+            </button>
+          </div>
+
+          <div class="nutri-panels">
+            <div
+              class="nutri-panel active"
+              id="panel-pre"
+              role="tabpanel"
+              aria-labelledby="tab-pre"
+            >
+              <div class="nutri-panel-grid">
+                <div class="nutri-col">
+                  <span class="log-mark">1–2 HORAS ANTES</span>
+                  <h3>Cargá combustible, no peso muerto en el estómago.</h3>
+                  <p>
+                    El objetivo es llegar a la barra con energía disponible y el
+                    estómago liviano. Priorizá carbohidratos de digestión media
+                    y una porción moderada de proteína. Dejá las grasas y la
+                    fibra pesada para otro momento del día: hacen más lenta la
+                    digestión justo cuando no lo necesitás.
+                  </p>
+                </div>
+                <div class="nutri-col">
+                  <h4>Priorizar</h4>
+                  <ul class="nutri-list">
+                    <li>
+                      Carbohidratos de fácil digestión — arroz, avena, banana,
+                      pan
+                    </li>
+                    <li>
+                      Proteína magra en porción moderada — pollo, huevo, yogur
+                    </li>
+                    <li>Hidratación constante desde una hora antes</li>
+                  </ul>
+                  <h4>Evitar</h4>
+                  <ul class="nutri-list nutri-list-avoid">
+                    <li>Comidas muy grasosas o fritas</li>
+                    <li>Exceso de fibra cruda justo antes</li>
+                    <li>Empezar en ayuno prolongado si el entreno es pesado</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="nutri-panel"
+              id="panel-post"
+              role="tabpanel"
+              aria-labelledby="tab-post"
+              hidden
+            >
+              <div class="nutri-panel-grid">
+                <div class="nutri-col">
+                  <span class="log-mark">DENTRO DE LAS 2 HORAS</span>
+                  <h3>La sesión rompe fibra, la comida la reconstruye.</h3>
+                  <p>
+                    Después de entrenar el cuerpo está listo para reponer
+                    glucógeno y reparar tejido. No hace falta un batido
+                    corriendo al vestuario, pero sí una comida completa dentro
+                    de las dos horas siguientes, con proteína de buena calidad y
+                    carbohidratos que repongan lo que se gastó en la sesión.
+                  </p>
+                </div>
+                <div class="nutri-col">
+                  <h4>Priorizar</h4>
+                  <ul class="nutri-list">
+                    <li>
+                      Proteína completa — carne, pescado, huevo, legumbres +
+                      cereal
+                    </li>
+                    <li>
+                      Carbohidratos para reponer glucógeno — papa, arroz, fruta
+                    </li>
+                    <li>Reposición de líquidos y electrolitos</li>
+                  </ul>
+                  <h4>Evitar</h4>
+                  <ul class="nutri-list nutri-list-avoid">
+                    <li>
+                      Saltear la comida siguiente esperando "compensar" calorías
+                    </li>
+                    <li>
+                      Alcohol en las horas inmediatas — interfiere con la
+                      recuperación
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="nutri-panel"
+              id="panel-descanso"
+              role="tabpanel"
+              aria-labelledby="tab-descanso"
+              hidden
+            >
+              <div class="nutri-panel-grid">
+                <div class="nutri-col">
+                  <span class="log-mark">SIN SESIÓN HOY</span>
+                  <h3>El día libre también construye fuerza.</h3>
+                  <p>
+                    Los días sin entreno no son días de aflojar con la comida:
+                    son cuando el cuerpo repara lo que rompiste en la sesión
+                    anterior. Mantené la proteína estable a lo largo del día y
+                    ajustá los carbohidratos un poco a la baja si el gasto de
+                    energía fue menor, sin volverte obsesivo con el número.
+                  </p>
+                </div>
+                <div class="nutri-col">
+                  <h4>Priorizar</h4>
+                  <ul class="nutri-list">
+                    <li>
+                      Proteína repartida en 3–4 comidas, no toda de una vez
+                    </li>
+                    <li>
+                      Vegetales y fibra — el día libre es para lo que no
+                      priorizaste antes
+                    </li>
+                    <li>
+                      Sueño y agua, tan parte de la dieta como la comida misma
+                    </li>
+                  </ul>
+                  <h4>Evitar</h4>
+                  <ul class="nutri-list nutri-list-avoid">
+                    <li>Pasar el día entero sin comer "porque no entrené"</li>
+                    <li>
+                      Recortar tanto que llegás a la próxima sesión sin reservas
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CALCULADORA DE DISCOS -->
+      <section class="calculadora" id="calculadora">
+        <div class="wrap">
+          <p class="eyebrow">Herramienta</p>
+          <h2 class="section-title">Calculadora de discos</h2>
+          <p class="calc-sub">
+            Ingresá el peso total que vas a levantar. Calculamos qué discos van
+            de cada lado de la barra, asumiendo una barra olímpica de
+            20&nbsp;kg.
+          </p>
+
+          <div class="calc-box">
+            <div class="calc-input-row">
+              <label for="targetWeight">Peso total</label>
+              <div class="calc-input-wrap">
+                <input
+                  type="number"
+                  id="targetWeight"
+                  inputmode="decimal"
+                  placeholder="100"
+                  min="20"
+                  step="2.5"
+                />
+                <span class="calc-unit">kg</span>
+              </div>
+            </div>
+
+            <div class="calc-visual" id="calcVisual" aria-hidden="true">
+              <div class="calc-bar-line"></div>
+            </div>
+
+            <div class="calc-result" id="calcResult">
+              <p class="calc-hint">
+                Escribí un peso arriba para cargar la barra.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA / CONTACTO -->
+      <section class="cta" id="contacto">
+        <div class="wrap cta-inner">
+          <h2 class="cta-title">
+            La barra está cargada.<br />Falta que la agarres.
+          </h2>
+          <p class="cta-sub">
+            Dejá tu correo y te mandamos el bloque introductorio, gratis, sin
+            vueltas.
+          </p>
+          <form class="cta-form" id="ctaForm">
+            <input
+              type="email"
+              id="ctaEmail"
+              placeholder="tu@correo.com"
+              required
+              aria-label="Correo electrónico"
+            />
+            <button type="submit" class="btn btn-primary">
+              Recibir programa
+            </button>
+          </form>
+          <p class="cta-note" id="ctaNote" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span class="logo logo-small"
+          >HIERRO<span class="logo-dot">.</span></span
+        >
+        <p>
+          © <span id="year"></span> Hierro. Entrená pesado, entrená prolijo.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
