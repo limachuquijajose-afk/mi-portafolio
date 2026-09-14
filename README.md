@@ -35,7 +35,7 @@ Estudiante de Diseno y Desarrollo de Software en Tecsup.
 
 ## Captura de mi trabajo
 
-![Foto de mi perro hecho con IA](img/perro.jpg)
+![Captura de pantalla principal](img/captura.png)
 
 ## Comandos que mas uso
 
